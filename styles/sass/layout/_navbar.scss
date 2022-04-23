@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0px;
+
+    .nav-links{
+        display: flex;
+        & *{
+            padding: 0 5px;
+            color: #00B39B;
+        }
+    }
+}

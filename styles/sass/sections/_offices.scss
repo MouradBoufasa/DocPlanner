@@ -1,0 +1,17 @@
+.offices{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .offices-footer{
+        margin: 70px 0;
+        & *{
+            margin-bottom: 20px;
+        }
+    }
+}
